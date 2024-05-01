@@ -31,19 +31,6 @@ public void calcularDemoraAproxEnMins(CalculadorDeDistancia calculadorDeDistanci
     }
 }
 
-public void evaluarDemora(){
-    //Si la demora total es mayor al tiempo de demora aprox en minutos calculado, se reacciona
-    //si el tiempo que tarda en una seccion es mayor al esperado, se reacciona
-}
-/*public void calcularDemoraAproxEnMins(CalculadorDeDistancia calculadorDeDistancia, CalculadorDeDemora calculadorDeDemora){
-    float distanciaEnMetros = calculadorDeDistancia.distanciaEnMetrosEntre(puntoDePartida,destino);
-    this.demoraAproxEnMins = calculadorDeDemora.demoraAproxEnMinsParaRecorrer(distanciaEnMetros);
-}
-
-public void calcularDemoraTotalEnMinsDeteniendose(){
-    this.demoraAproxEnMins = this.destinos.stream().map(this::calcularDemoraAproxEnMins).sum();
-}*/
-
     public void agregarCuidadorALista(Usuario unCuidador){
     this.cuidadores.add(unCuidador);
 }
